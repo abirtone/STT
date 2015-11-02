@@ -23,24 +23,28 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+from os.path import dirname, join
 from setuptools import setup, find_packages
 
-files = ["resources/*"]
+# Import requirements
+with open(join(dirname(__file__), 'requirements.txt')) as f:
+    required = f.read().splitlines()
 
 setup(
     name='%{TOOL_NAME}s',  # TODO
     version='%{TOOL_VERSION}s',  # TODO
-    packages=find_packages(),
-    install_requires=["termcolor==1.1.0", "six"],
+    install_requires=required,
     url='%{PROJECT_URL}s',  # TODO
     license='BSD',
     author='%{AUTHOR}s',  # TODO
     author_email='%{AUTHOR_MAIL}s',  # TODO
-    package_data={'security_template_lib': files},
+    packages=find_packages(),
+    include_package_data=True,
     entry_points={'console_scripts': [
-        'tool_template = security_template_lib.stp:main',
+        'tool_template = security_template_lib.stp:main',  # TODO
         ]},
     description='%{TOOL_DESCRIPTION}s',  # TODO
+    long_description=open('README.md', "r").read(),
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: System Administrators',

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/security-tool-template.iml" filepath="$PROJECT_DIR$/.idea/security-tool-template.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/Projects/security-tool-template/.idea/STT.iml" filepath="$USER_HOME$/Documents/Projects/security-tool-template/.idea/STT.iml" />
     </modules>
   </component>
 </project>

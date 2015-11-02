@@ -1,27 +1,27 @@
-Security Template Lib
-=====================
+Security Tool Template
+======================
 
 
-*STL: Security Template Library Project*
+*STT: Security Tool Template* Project
 
-Code | https://github.com/abirtone/stl
+Code | https://github.com/abirtone/stt
 ---- | ----------------------------------------------
-Issues | https://github.com/abirtone/stl/issues
+Issues | https://github.com/abirtone/stt/issues
 Python version | Python 2 or 3
 
-What's STL
+What's STT
 ----------
 
-STL is a project template for build security tools easilly. 
+STT is a project template for build security tools easilly. 
 
 
 Installation
 ------------
 
-Install STL is so easy:
+Install STT is so easy:
 
 ```bash
-# git clone https://github.com/abirtone/stl.git
+# git clone https://github.com/abirtone/stt.git
 ```
 
 Usage
@@ -29,4 +29,4 @@ Usage
 
 Now you only need to looking for "# TODO" text to find values to change and adapt the template to your own project.
 
-
+This project follow OMSTD methodology to build security tools: http://omstd.readthedocs.org 

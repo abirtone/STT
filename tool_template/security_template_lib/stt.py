@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 import argparse
@@ -48,7 +47,7 @@ if __name__ == "__main__" and __package__ is None:
     parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     sys.path.insert(1, parent_dir)
     import security_template_lib  # TODO
-    __package__ = str("security_templale_lib")  # TODO
+    __package__ = str("security_template_lib")  # TODO
 
     # Check Python version
     # if sys.version_info < (3, 3):

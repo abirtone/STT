@@ -6,7 +6,7 @@
 Welcome to %{TOOL_NAME}s documentation!  # TODO
 ====================================
 
-What's Plecost
+What's %{TOOL_NAME}s
 --------------
 
 %{TOOL_DESCRIPTION}s  # TODO
